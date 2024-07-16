@@ -1,4 +1,4 @@
-<div class="navbar bg-neutral text-neutral-content mb-10">
+<div class="navbar bg-neutral text-neutral-content inset-x-0 bottom-0 h-full">
   <div class="navbar-start">
     <div class="dropdown">
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@
         tabindex="0"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
       >
-        <li><a>About</a></li>
+        <li><a href="/about">About</a></li>
         <li>
           <details>
             <summary>Portfolio</summary>
@@ -34,11 +34,11 @@
         <li><a>Contact</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost text-xl">Dan Burt</a>
+    <a class="btn btn-ghost text-xl" href="/">Dan Burt</a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a>About</a></li>
+      <li><a href="/about">About</a></li>
       <li>
         <details>
           <summary>Portfolio</summary>
