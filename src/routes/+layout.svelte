@@ -1,16 +1,17 @@
 <script>
   import "../app.css";
-  import Navbar from "../components/Navbar.svelte"
+  import Navbar from "../components/Navbar.svelte";
   import Footer from "../components/Footer.svelte";
 </script>
 
-<div class="min-h-screen flex flex-col justify-between">
+<style>
+  div{
+    font-family: monospace;
+  }
+</style>
 
-  
-  <Navbar/>
-  
-  <slot />
-  
-  
-  <Footer/>
+<div class="min-h-screen flex flex-col justify-between">
+  <Navbar />
+  <slot/>
+  <Footer />
 </div>
