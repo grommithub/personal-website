@@ -29,13 +29,23 @@
 </script>
 
 {#if flyIn}
-  <div class="absolute h-screen w-screen -z-20 m-auto overflow-hidden">
-    <img
+  <!-- <button class="btn btn-primary"></button>
+<button class="btn btn-secondary"></button>
+<button class="btn btn-accent"></button> -->
+  <div
+    class="absolute h-screen w-screen -z-20 m-auto overflow-hidden flex justify-center"
+  >
+    <video class="h-screen -z-20 absolute" muted autoplay>
+      <source src="maze-bg-zoomed.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="bg-base-200 bg-opacity-95 w-full h-full"></div>
+
+    <!-- <img
       class="-z-20 absolute h-full object-cover translate-x-0.5"
       alt="Maze generator"
-      src="https://cdn.discordapp.com/attachments/1079554025550266438/1079555135530873064/Claudius_gzE1ntGoS2.gif?ex=6697b3d1&is=66966251&hm=e11e7420c0dc17d4b80e8824ee4327e1f251acc8b72a2a2edbaa50d31a67f50e&"
-    />
-    <div class="bg-base-200 opacity-90 w-full h-full"></div>
+      src="bg-maze"
+    /> -->
   </div>
 
   <div class="hero flex grow">
@@ -50,18 +60,26 @@
         </div>
       </div>
       <div>
-        <a class="text-5xl font-bold" transition:fly={{ delay: 1000, duration: 1000, x: -500 }} href="/about">
+        <a
+          class="text-5xl font-bold"
+          transition:fly={{ delay: 1000, duration: 1000, x: -500 }}
+          href="/about"
+        >
           Dan Burt
         </a>
         <div class="flex flex-col justify-center">
           <ul class="text-xl">
-
             <li transition:fly={{ delay: 1500, duration: 1000, x: -500 }}>
-                
-                <a class="link" href="https://github.com/grommithub">Software engineer</a>
+              <a class="link" href="https://github.com/grommithub"
+                >Software engineer</a
+              >
             </li>
             <li transition:fly={{ delay: 2000, duration: 1000, x: -500 }}>
-              <a class="link" href="https://grommitchio.itch.io/" target="_blank">Game developer</a>
+              <a
+                class="link"
+                href="https://grommitchio.itch.io/"
+                target="_blank">Game developer</a
+              >
             </li>
             <li transition:fly={{ delay: 2500, duration: 1000, x: -500 }}>
               <a class="link" href="/about">Web designer</a>
