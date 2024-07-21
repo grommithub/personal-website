@@ -14,6 +14,7 @@
   <div class="flex w-full flex-col-reverse lg:flex-row p-5 overflow-hidden">
     <img
       transition:fly={{ x: -1000, duration: 1000 }}
+      alt="Picture of me"
       class="card bg-base-300 rounded-box lg:w-1/2 w-full h-auto shadow-lg"
       src="https://media.discordapp.net/attachments/960675848724283452/1242758181659087040/20240430_200445-1.jpg?ex=669b773f&is=669a25bf&hm=a28910ac9bb70266f106da66d572071b2e0782544041ad497c1b45a1ebf38c88&=&format=webp&width=526&height=701"
     />
@@ -46,10 +47,23 @@
             href="https://www.uu.se/en/study/programme/bachelors-programme-game-design-and-programming"
             target="_blank"
             class="link tooltip"
-            data-tip="About the program"
-            >Game Design and Programming from Uppsala
-            University</a>.
-            Noteworthy projects from this time include the game <a href="https://grommitchio.itch.io/aescension" target="_blank" class="link tooltip" data-tip="Info and game download">Aescension</a> and a <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1669633&dswid=789" target="_blank" class="link tooltip" data-tip="Read it here">thesis</a> I co-authored about spread mechanics in first-person shooters.
+            data-tip="About the program">Game Design and Programming</a
+          >
+          from Uppsala University. Noteworthy projects from this time include
+          the game
+          <a
+            href="https://grommitchio.itch.io/aescension"
+            target="_blank"
+            class="link tooltip"
+            data-tip="Info and game download">Aescension</a
+          >
+          and a
+          <a
+            href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1669633&dswid=789"
+            target="_blank"
+            class="link tooltip"
+            data-tip="Read it here">thesis</a
+          > I co-authored about spread mechanics in first-person shooters.
         </p>
       </Card>
       <Card x={1000} duration={1000} delay={500}>
@@ -64,7 +78,7 @@
           pieces.
         </p>
       </Card>
-      <Card x={1000} duration={1000} delay={750}>
+      <Card x={1000} duration={1000} delay={750} lastElement={true}>
         <h1 class="text-xl">Introduction</h1>
         <p class="text-base text-wrap">
           My name is Dan and I develop software both as a profession and as a
