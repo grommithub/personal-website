@@ -42,7 +42,7 @@
       <li>
         <details>
           <summary>Portfolio</summary>
-          <ul class="p-2">
+          <ul class="p-2 z-10">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
