@@ -3,7 +3,6 @@ export default {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     screens: {
-    
       'lg': '1024px',
       'uw': '2500px'
     },

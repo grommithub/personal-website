@@ -97,7 +97,7 @@
       <div class="flex flex-col">
 
         <p>Mesmerized by the maze generation?</p>
-        <p>Check out the source code <a href="https://github.com/grommithub/Maze-Writer" target="_blank" class="link">here</a></p>
+        <p>Check out the C++ source code <a href="https://github.com/grommithub/Maze-Writer" target="_blank" class="link">here</a></p>
       </div>
       </div>
   </div>
