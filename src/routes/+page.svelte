@@ -54,7 +54,7 @@
         <div class=" w-56 mask mask-hexagon">
           <img
             transition:fly={{ delay: 0, duration: 1000, x: -500 }}
-            src="https://cdn.discordapp.com/attachments/960675848724283452/1263209620818890832/image.png?ex=66996722&is=669815a2&hm=a03cc5703edc83ae113701afa2241a7fce957dbe0103bd253cdd6b1d7e8b4fa7&"
+            src="dan-face.png"
             alt="Dan's face"
           />
         </div>
@@ -67,8 +67,9 @@
         >
           Dan Burt
         </a>
+
         <div class="flex flex-col justify-center">
-          <ul class="text-xl">
+          <ul class="text-xl list-disc">
             <li transition:fly={{ delay: 1500, duration: 1000, x: -500 }}>
               <a class="link" href="https://github.com/grommithub"
                 >Software engineer</a
@@ -88,5 +89,16 @@
         </div>
       </div>
     </div>
+  </div>
+
+
+  <div class="toast toast-end" transition:fly={{delay:43000, x: 500, duration: 500}}>
+    <div class="alert alert-info">
+      <div class="flex flex-col">
+
+        <p>Mesmerized by the maze generation?</p>
+        <p>Check out the source code <a href="https://github.com/grommithub/Maze-Writer" target="_blank" class="link">here</a></p>
+      </div>
+      </div>
   </div>
 {/if}

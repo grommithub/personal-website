@@ -15,30 +15,27 @@
     <img
       transition:fly={{ x: -1000, duration: 1000 }}
       alt="Picture of me"
-      class="card bg-base-300 rounded-box lg:w-1/2 w-full h-auto shadow-lg"
-      src="https://media.discordapp.net/attachments/960675848724283452/1242758181659087040/20240430_200445-1.jpg?ex=669b773f&is=669a25bf&hm=a28910ac9bb70266f106da66d572071b2e0782544041ad497c1b45a1ebf38c88&=&format=webp&width=526&height=701"
+      class="card bg-base-300 rounded-box w-full lg:w-1/3 uw:w-1/4 h-auto shadow-lg"
+      src="goblin.jpg"
     />
     <div
       class="divider lg:divider-horizontal"
       transition:fly={{ y: -1000, duration: 1000, delay: 750 }}
     ></div>
     <div class=" flex flex-col">
-      <!-- <div
-        transition:fly={{ x: 1000, duration: 1000 }}
-        class="card bg-base-300 rounded-box grid place-items-center my-auto p-5 mb-5"
-      >
-        <h2 class="text-xl">Hello, you</h2>
-        <p class="text-base text-wrap">
-          My name is Dan and I develop software both as a profession and as a
-          hobby.
-        </p>
-      </div> -->
       <Card x={1000} duration={1000}>
         <h2 class="text-xl">Introduction</h2>
         <p class="text-base text-wrap">
           My name is Dan and I develop software both as a profession and as a
           hobby.
+          <br>
+          I make:
         </p>
+        <ul class=" text-lg">
+          <li>Games</li>
+          <li>Applications</li>
+          <li>Websites (like this one!)</li>
+        </ul>
       </Card>
       <Card x={1000} duration={1000} delay={250}>
         <h2 class="text-xl">Education</h2>
@@ -49,8 +46,8 @@
             class="link tooltip"
             data-tip="About the program">Game Design and Programming</a
           >
-          from Uppsala University. Noteworthy projects from this time include
-          the game
+          from Uppsala University. Noteworthy projects from this time include the
+          game
           <a
             href="https://grommitchio.itch.io/aescension"
             target="_blank"
