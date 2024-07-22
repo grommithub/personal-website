@@ -4,25 +4,31 @@
   import { onMount } from "svelte";
   import Card from "../../components/Card.svelte";
 
+  
+  
   let flyIn = false;
   onMount(() => (flyIn = true));
-
+  
   export let data: PageData;
 </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
 {#if flyIn}
-  <div class="flex w-full flex-col-reverse lg:flex-row p-5 overflow-hidden">
-    <img
-      transition:fly={{ x: -1000, duration: 1000 }}
-      alt="Me squatting next to a climbing rock"
-      class="card bg-base-300 rounded-box w-full lg:w-1/3 uw:w-1/4 h-fit shadow-lg m-auto"
-      src="goblin.jpg"
-    />
+  <div class="flex flex-col-reverse lg:flex-row p-5 w-screen">
+    <div class="w-full lg:w-1/3 uw:w-1/4">
+      <img
+      width="100%"
+        transition:fly={{ x: -1000, duration: 1000 }}
+        alt="Me squatting next to a climbing rock"
+        class="card bg-base-300 rounded-box shadow-lg m-auto"
+        src="goblin.jpg"
+      />
+    </div>
     <div
       class="divider lg:divider-horizontal"
       transition:fly={{ y: -1000, duration: 1000, delay: 750 }}
     ></div>
-    <div class="flex flex-col justify-evenly">
+    <div class="flex flex-grow flex-col justify-evenly">
       <Card x={1000} duration={1000}>
         <h2 class="text-xl">Introduction</h2>
         <p class="text-base text-wrap">
