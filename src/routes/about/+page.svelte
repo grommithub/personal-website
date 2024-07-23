@@ -4,20 +4,22 @@
   import { onMount } from "svelte";
   import Card from "../../components/Card.svelte";
 
-  
-  
   let flyIn = false;
   onMount(() => (flyIn = true));
-  
+
   export let data: PageData;
 </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+/>
 
 {#if flyIn}
-  <div class="flex flex-col-reverse lg:flex-row p-5 w-screen">
-    <div class="w-full lg:w-1/3 uw:w-1/4">
+  <div class="flex flex-col-reverse lg:flex-row p-5 w-full overflow-hidden">
+    <div class="w-full lg:w-2/3 uw:w-1/4 m-auto">
       <img
-      width="100%"
+        width="100%"
         transition:fly={{ x: -1000, duration: 1000 }}
         alt="Me squatting next to a climbing rock"
         class="card bg-base-300 rounded-box shadow-lg m-auto"
@@ -28,13 +30,13 @@
       class="divider lg:divider-horizontal"
       transition:fly={{ y: -1000, duration: 1000, delay: 750 }}
     ></div>
-    <div class="flex flex-grow flex-col justify-evenly">
+    <div class="flex flex-grow flex-col justify-evenly p-5">
       <Card x={1000} duration={1000}>
         <h2 class="text-xl">Introduction</h2>
         <p class="text-base text-wrap">
           My name is Dan and I develop software both as a profession and as a
           hobby.
-          <br>
+          <br />
           I make:
         </p>
         <ul class="text-lg">
@@ -78,15 +80,19 @@
             href="https://www.livsmedelsverket.se/"
             target="_blank">Swedish Food Agency</a
           >
-          where I worked on various internal websites, an app, several API's and other pieces of miscellaneous software.
-          Working full-stack meant dealing with everything from the SQL-database to the HTML-interface and everything in-between.  
+          where I worked on various internal websites, an app, several API's and
+          other pieces of miscellaneous software. Working full-stack meant dealing
+          with everything from the SQL-database to the HTML-interface and everything
+          in-between.
         </p>
       </Card>
       <Card x={1000} duration={1000} delay={750} lastElement={true}>
-        <h1 class="text-xl">Introduction</h1>
+        <h1 class="text-xl">Current Activity</h1>
         <p class="text-base text-wrap">
-          My name is Dan and I develop software both as a profession and as a
-          hobby.
+          Since my employment contract expired I've been looking for a job in
+          tech and working on personal projects. If you're curious I implore you
+          to browse my portfolio and if you like what you see you're free to get
+          in touch.
         </p>
       </Card>
     </div>

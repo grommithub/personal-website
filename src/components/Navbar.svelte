@@ -48,7 +48,7 @@
           </ul>
         </details>
       </li>
-      <li><a>Contact</a></li>
+      <li><a href="/contact">Links and Contact</a></li>
     </ul>
   </div>
   <div class="navbar-end"></div>
