@@ -39,15 +39,7 @@
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
       <li><a href="/about">About</a></li>
-      <li>
-        <details>
-          <summary>Portfolio</summary>
-          <ul class="p-2 z-10">
-            <li><a>Submenu 1</a></li>
-            <li><a>Submenu 2</a></li>
-          </ul>
-        </details>
-      </li>
+      <li><a href="/about">Software Portfolio</a></li>
       <li><a href="/contact">Links and Contact</a></li>
     </ul>
   </div>
