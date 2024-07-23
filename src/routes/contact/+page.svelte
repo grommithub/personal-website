@@ -1,12 +1,17 @@
 <script lang="ts">
+  import { fly } from "svelte/transition";
   import UserLink from "../../components/UserLink.svelte";
 
   import type { PageData } from "./$types";
+  import { onMount } from "svelte";
 
   export let data: PageData;
-</script>
 
-<div class="flex flex-col justify-center uw:w-1/3 m-auto w-fit">
+  let flyIn = false;
+  onMount(()=> flyIn = true)
+</script>
+{#if flyIn}
+<div class="flex flex-col justify-center uw:w-1/3 m-auto w-fit" transition:fly={{duration:500, y:100}}>
   <h1 class=" text-5xl">
     <b>Get in touch!</b>
   </h1>
@@ -23,15 +28,14 @@
     title="Github"
   />
   <UserLink
-  icon={"github"}
+  icon={"phone"}
   url=""
   title="(+46)704090823"
 />
 <UserLink
-icon={"github"}
+icon={"mail"}
 url="mailto:daniel.burt2000@gmail.com"
 title="daniel.burt2000@gmail.com"
 />
-
-  <div class="divider">Casual</div>
 </div>
+{/if}
