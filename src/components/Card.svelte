@@ -13,6 +13,7 @@
 <div
   class="card bg-base-300 rounded-box grid place-items-start p-5 shadow-lg"
   class:mb-5={!lastElement}
-  transition:type={{ duration, x, y, delay }}>
+  in:type={{ duration, x, y, delay }}
+  out:fly={{duration:250, y:1000 }}>
   <slot />
 </div>
