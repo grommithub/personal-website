@@ -4,17 +4,21 @@
 
   import type { PageData } from "./$types";
   import { onMount } from "svelte";
+  import { page } from "$app/stores";
 
   export let data: PageData;
 
   let flyIn = false;
+  $: shown = flyIn && $page.route.id?.match('contact');
+
+
   onMount(()=> flyIn = true)
 </script>
-{#if flyIn}
-<div class="flex flex-col justify-center uw:w-1/3 m-auto w-fit" transition:fly={{duration:500, y:100}}>
-  <h1 class=" text-5xl">
+<div class="flex flex-col justify-center uw:w-1/3 m-auto w-fit" transition:fly={{duration:500, y:100}}
+class:hidden={!shown}>
+  <h2 class="text-5xl">
     <b>Get in touch!</b>
-  </h1>
+  </h2>
   <div class="divider">Professional</div>
   <UserLink
   icon={"LinkedIn"}
@@ -38,4 +42,3 @@ url="mailto:daniel.burt2000@gmail.com"
 title="daniel.burt2000@gmail.com"
 />
 </div>
-{/if}

@@ -18,7 +18,7 @@
 />
 
 <div class="flex flex-col-reverse lg:flex-row p-5 w-full overflow-hidden"
-class:hidden={!shown}>
+class:hidden={!shown} class:absolute={!shown}>
   <div class="w-full lg:w-2/3 uw:w-1/4 m-auto">
     <img
       width="100%"
