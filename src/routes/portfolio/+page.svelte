@@ -1,4 +1,5 @@
 <script lang="ts">
+  import ProjectCard from "../../components/ProjectCard.svelte";
   import type { PageData } from "./$types";
 
   export let data: PageData;
@@ -8,74 +9,32 @@
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="w-full px-5 pb-5">
-  <div class="card bg-base-300 w-full lg:w-2/3 shadow-xl m-auto flex-row">
-      <div class="w-5/6 rounded">
-        <img
-          src="https://i.imgur.com/VnIKHN9.gif"
-          class="w-full h-auto"
-          alt="Shoes"
-        />
-      </div>
-    <div class="card-body">
-      <h2 class="card-title">
-        Shoes!
-        <div class="badge badge-secondary">NEW</div>
-      </h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
-      <div class="card-actions justify-end">
-        <div class="badge badge-outline">Fashion</div>
-        <div class="badge badge-outline">Products</div>
-      </div>
-    </div>
-  </div>
+<div class="px-5 pb-5 w-full lg:w-2/3 m-auto">
+  <h2 class="text-5xl pt-5 text-center">Software Portfolio</h2>
+  <div class="divider"></div>
+  <ProjectCard
+    title={"Hello!"}
+    tags={[
+      "C++",
+      "SDL2",
+      "asdfasdf",
+      "asdfasdf",
+      "asdfasdf",
+      "asdfasdf",
+      "asdfasdf",
+    ]}
+    link={{
+      url: "https://github.com/grommithub/Asteroids",
+      display: "Source code",
+    }}>Hi!</ProjectCard
+  >
+  <ProjectCard
+    title={"Aescension"}
+    tags={["Unreal Engine", "Blueprints", "Audio"]}
+    src={"https://img.itch.zone/aW1hZ2UvOTkwMDA0LzYwOTc0NTkuZ2lm/794x1000/mAcv5T.gif"}
+    link={{url:"https://grommitchio.itch.io/aescension", display:"Itch.io"}}
+  >
+    Aescension is a thriller puzzle game I scripted the gameplay, puzzles and audio for.
+  </ProjectCard>
+  <ProjectCard></ProjectCard>
 </div>
-
-<div class="w-full px-5 pb-5">
-  <div class="card bg-base-300 w-full lg:w-2/3 shadow-xl m-auto flex-row">
-      <div class="w-5/6 rounded">
-        <img
-          src="https://i.imgur.com/mDjUxXz.gif"
-          class="w-full h-auto"
-          alt="Shoes"
-        />
-      </div>
-    <div class="card-body">
-      <h2 class="card-title">
-        Shoes!
-        <div class="badge badge-secondary">NEW</div>
-      </h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
-      <div class="card-actions justify-end">
-        <div class="badge badge-outline">Fashion</div>
-        <div class="badge badge-outline">Products</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="w-full px-5 pb-5">
-  <div class="card bg-base-300 w-full lg:w-2/3 shadow-xl m-auto flex-row">
-      <div class="w-5/6 rounded">
-        <img
-          src="https://grommithub.github.io/images/snail.gif"
-          class="w-full h-auto"
-          alt="Shoes"
-        />
-      </div>
-    <div class="card-body">
-      <h2 class="card-title">
-        Shoes!
-        <div class="badge badge-secondary">NEW</div>
-      </h2>
-      <p>If a dog chews shoes whose shoes does he choose?</p>
-      <div class="card-actions justify-end">
-        <div class="badge badge-outline">Fashion</div>
-        <div class="badge badge-outline">Products</div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-

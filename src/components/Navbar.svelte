@@ -18,20 +18,12 @@
         </svg>
       </div>
       <ul
-        tabindex="0"
+        tabindex="-1"
         class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
       >
-        <li><a href="/about">About</a></li>
-        <li>
-          <details>
-            <summary>Portfolio</summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-        <li><a>Contact</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/portfolio">Software Portfolio</a></li>
+      <li><a href="/contact">Links and Contact</a></li>
       </ul>
     </div>
     <a class="btn btn-ghost text-xl" href="/">Dan Burt</a>
