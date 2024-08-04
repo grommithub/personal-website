@@ -17,11 +17,11 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 />
 
-<div class="flex flex-col-reverse lg:flex-row p-5 w-full overflow-hidden"
+<div class="flex flex-col-reverse lg:flex-row p-5 w-full overflow-hidden lg:grid-cols-2 block"
 class:hidden={!shown} class:absolute={!shown}>
-  <div class="w-full lg:w-2/3 uw:w-1/4 m-auto">
+  <div class="w-full lg:w-1/2 uw:w-1/4 m-auto">
     <img
-      width="100%"
+
       in:fly={{ x: -1000, duration: 1000, delay: 500 }}
       alt="Me squatting next to a climbing rock"
       class="card bg-base-300 rounded-box shadow-lg m-auto"
@@ -33,7 +33,7 @@ class:hidden={!shown} class:absolute={!shown}>
     in:fly={{ y: -1000, duration: 1000, delay: 500 }}
   ></div>
   <div class="flex flex-grow flex-col justify-evenly p-5">
-    <h2 class="text-3xl" transition:fly={{ x: 1000, duration: 1000 }}>About</h2>
+    <h2 class="text-5xl" transition:fly={{ x: 1000, duration: 1000 }}>About</h2>
     <div
       class="divider divider-start w-full"
       in:fly={{ x: 1000, duration: 1000, delay: 250 }}
