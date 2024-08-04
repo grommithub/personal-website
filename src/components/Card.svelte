@@ -7,13 +7,28 @@
   export let x: number = 0;
   export let y: number = 0;
   export let delay: number = 0;
-  export let lastElement:boolean = false;
+  export let lastElement: boolean = false;
 </script>
 
 <div
-  class="card bg-base-300 rounded-box grid place-items-start p-5 shadow-lg"
+  class="content card bg-base-300 rounded-box grid place-items-start p-5 lg:px-10 uw:p-10 shadow-lg leading-loose"
   class:mb-5={!lastElement}
   in:type={{ duration, x, y, delay }}
-  out:fly={{duration:250, y:1000 }}>
+>
   <slot />
 </div>
+
+<style>
+  :global(.content h2) {
+   @apply divider;
+   @apply divider-start;
+   @apply w-full;
+  }
+  :global(.content p) {
+    @apply lg:pl-5;
+    @apply text-base;
+    @apply lg:text-lg;
+    @apply uw:text-xl;
+    @apply lg:leading-snug;
+  }
+</style>

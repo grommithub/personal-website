@@ -14,7 +14,7 @@
 
   onMount(()=> flyIn = true)
 </script>
-<div class="flex flex-col justify-center uw:w-1/3 m-auto w-fit" transition:fly={{duration:500, y:100}}
+<div class="flex flex-col justify-center m-auto w-fit" transition:fly={{duration:500, y:100}}
 class:hidden={!shown}>
   <h2 class="text-5xl">
     <b>Get in touch!</b>

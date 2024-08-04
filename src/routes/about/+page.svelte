@@ -17,9 +17,9 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 />
 
-<div class="flex flex-col-reverse lg:flex-row p-5 w-full overflow-hidden lg:grid-cols-2 block"
+<div class="flex flex-col-reverse lg:flex-row p-5 w-full uw:w-2/3 m-auto overflow-hidden lg:grid-cols-2"
 class:hidden={!shown} class:absolute={!shown}>
-  <div class="w-full lg:w-1/2 uw:w-1/4 m-auto">
+  <div class="w-full lg:w-1/2 m-auto">
     <img
 
       in:fly={{ x: -1000, duration: 1000, delay: 500 }}
@@ -33,15 +33,15 @@ class:hidden={!shown} class:absolute={!shown}>
     in:fly={{ y: -1000, duration: 1000, delay: 500 }}
   ></div>
   <div class="flex flex-grow flex-col justify-evenly p-5">
-    <h2 class="text-5xl" transition:fly={{ x: 1000, duration: 1000 }}>About</h2>
+    <h2 class="text-5xl" in:fly={{ x: 1000, duration: 1000 }}>About</h2>
     <div
       class="divider divider-start w-full"
       in:fly={{ x: 1000, duration: 1000, delay: 250 }}
     ></div>
     <Card x={1000} duration={1000} delay={500}>
-      <p class="text-xl text-wrap">My name is Dan and I develop software.</p>
+      <h3 class="text-3xl uw:text-4xl text-wrap">My name is Dan and I develop software.</h3>
       <div class="divider divider-start w-full">Education</div>
-      <p class="text-base text-wrap">
+      <p>
         I have a bachelor's degree in <a
           href="https://www.uu.se/en/study/programme/bachelors-programme-game-design-and-programming"
           target="_blank"
@@ -64,7 +64,7 @@ class:hidden={!shown} class:absolute={!shown}>
         > I co-authored about spread mechanics in first-person shooters.
       </p>
       <div class="divider divider-start w-full">Professional Experience</div>
-      <p class="text-base text-wrap">
+      <p>
         I have professional experience working as a consultant at the <a
           class="link tooltip"
           data-tip="Visit their government website"
@@ -76,7 +76,7 @@ class:hidden={!shown} class:absolute={!shown}>
         from the SQL-database to the HTML-interface and everything in-between.
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
-      <p class="text-base text-wrap">
+      <p>
         Since my employment contract expired I've been looking for a job in tech
         and working on personal projects. If you're curious I implore you to
         browse my portfolio and if you like what you see you're free to get in
