@@ -6,7 +6,7 @@
 
   export let link: Link = null;
   export let title: string = "Title";
-  export let tags: string[] = ["Test 1", "Test 2"];
+  export let tags: string[] = [];
   export let src: string = "https://i.imgur.com/VnIKHN9.gif";
 </script>
 

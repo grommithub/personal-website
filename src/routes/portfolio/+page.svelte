@@ -16,8 +16,8 @@
   </h1>
   <Card>
     <div class="text-lg lg:text-xl uw:text-2xl">
-      Here you can find some of the noteworthy software I've worked on in recent
-      years.
+      Here you can browse some of the noteworthy software I've worked on in recent
+      years. 
     </div>
 
     <!-- <div class="aspect-video w-full">
@@ -33,67 +33,62 @@
         </div> -->
   </Card>
   <div class="divider"></div>
-  <ul>
-    <li>
-      <ProjectCard
-        title={"Endless Runner"}
-        tags={["C++", "SDL2"]}
-        link={{
-          url: "https://github.com/grommithub/Asteroids",
-          display: "Source code",
-        }}
-      >
-        This is an endless runner game made from scratch in C++ using SDL2.
-        <br />
-        Key features include:
-        <ul>
-          <li>Stores any number of viewable replays</li>
-          <li>Sprite animations</li>
-          <li>Particle systems</li>
-          <li>Screenshake</li>
-          <li>Parallaxing background</li>
-        </ul>
-        Everything was made by me as part of a school project.
-      </ProjectCard>
-    </li>
-    <li>
-      <ProjectCard
-        title={"Aescension"}
-        tags={["Unreal Engine", "Blueprints", "Audio"]}
-        src={"https://img.itch.zone/aW1hZ2UvOTkwMDA0LzYwOTc0NTkuZ2lm/794x1000/mAcv5T.gif"}
-        link={{
-          url: "https://grommitchio.itch.io/aescension",
-          display: "Itch.io",
-        }}
-      >
-        Aescension is a thriller game I scripted the gameplay for.
-        <br />
-        I worked on:
-        <ul>
-          <li>Puzzles and their logic</li>
-          <li>Player controller</li>
-          <li>Implementation of all audio and certain visual effects</li>
-          <li>Scripted sequences</li>
-        </ul>
-        The game won a
-        <div
-          class="tooltip underline"
-          data-tip="#1 Best Art Direction, #1 Best Audio, #3 Best Overall and #3 Best Storytelling "
-        >
-          few awards
-        </div>
-        at the<a
-          class="link"
-          href="https://gotlandgameconference.com/2021/the-awards/"
-          target="_blank">2021 Gotland Game Conference</a
-        >.
-      </ProjectCard>
-    </li>
-    <li>
 
-      <ProjectCard></ProjectCard>
-    </li>
-  </ul>
+  <ProjectCard
+    title={"Endless Runner"}
+    tags={["C++", "SDL2"]}
+  >
+    This is an endless runner game made from scratch in C++ using SDL2.
+    <br />
+    Key features include:
+    <ul>
+      <li>Stores any number of viewable replays</li>
+      <li>Sprite animations</li>
+      <li>Particle systems</li>
+      <li>Screenshake</li>
+      <li>Parallaxing background</li>
+    </ul>
+    Everything was made by me as part of a school project.
+  </ProjectCard>
+
+  <ProjectCard
+    title={"Aescension"}
+    tags={["Unreal Engine", "Blueprints", "Audio"]}
+    src={"https://img.itch.zone/aW1hZ2UvOTkwMDA0LzYwOTc0NTkuZ2lm/794x1000/mAcv5T.gif"}
+    link={{
+      url: "https://grommitchio.itch.io/aescension",
+      display: "Itch.io",
+    }}
+  >
+    Aescension is a thriller game I scripted the gameplay for.
+    <br />
+    I worked on:
+    <ul>
+      <li>Puzzles and their logic</li>
+      <li>Player controller</li>
+      <li>Implementation of all audio and certain visual effects</li>
+      <li>Scripted sequences</li>
+    </ul>
+    The game won a
+    <div
+      class="tooltip underline"
+      data-tip="#1 Best Art Direction, #1 Best Audio, #3 Best Overall and #3 Best Storytelling "
+    >
+      few awards
+    </div>
+    at the <a
+      class="link"
+      href="https://gotlandgameconference.com/2021/the-awards/"
+      target="_blank">2021 Gotland Game Conference</a
+    >.
+  </ProjectCard>
+
+  <ProjectCard title={"ChatFindr"} src={"ChatFindr.gif"} tags={["C#", "ASP.NET", "Javascript", "Websockets"]}>
+    A realtime anonymous chat for the browser. Works well for both mobile and desktop. Developed full-stack by me.
+    <br>
+    Allows for chats between random strangers. Also supports the use of tagged matchmaking, allowing you to match with other users who share your interests.
+  </ProjectCard>
+
   <Card>
     Not everything is documented here but more can be found on my itch, github
     and linkedin.
