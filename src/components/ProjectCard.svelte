@@ -11,10 +11,10 @@
 </script>
 
 <div
-  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between"
+  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden"
 >
-  <div class="w-full h-full rounded">
-    <img {src} class="w-full h-full rounded-l-xl" alt={title} />
+  <div class="w-full h-full rounded bg-black content-center">
+    <img {src} class="w-full h-fit" alt={title} />
   </div>
   <div class="card-body w-full">
     <h2 class="divider w-full divider-start">

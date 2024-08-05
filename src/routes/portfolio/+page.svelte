@@ -10,14 +10,15 @@
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="px-5 pb-5 w-full lg:w-2/3 m-auto uw:w-1/2">
-  <h1 class="text-5xl pt-5 w-full divider divider-start my-10">
+<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2">
+  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider divider-start my-10">
     Software Portfolio
   </h1>
   <Card>
-    <div class="text-lg lg:text-xl uw:text-2xl">
-      Here you can browse some of the noteworthy software I've worked on in recent
-      years. 
+
+    <div class="text-base lg:text-lg uw:text-2xl">
+      Here you can find some of the noteworthy software I've worked on in recent
+      years.
     </div>
 
     <!-- <div class="aspect-video w-full">

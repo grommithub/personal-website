@@ -19,10 +19,12 @@
       </div>
       <ul
         tabindex="-1"
-        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+        class="menu menu-lg dropdown-content bg-neutral rounded-box z-20 mt-3 w-52 shadow p-5"
       >
       <li><a href="/about">About</a></li>
+      <div class="divider w-full"></div>
       <li><a href="/portfolio">Software Portfolio</a></li>
+      <div class="divider w-full"></div>
       <li><a href="/contact">Links and Contact</a></li>
       </ul>
     </div>

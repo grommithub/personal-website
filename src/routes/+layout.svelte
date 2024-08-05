@@ -3,6 +3,11 @@
   import Navbar from "../components/Navbar.svelte";
   import Footer from "../components/Footer.svelte";
   import { page } from "$app/stores";
+
+  import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
+
+  injectSpeedInsights();
+
 </script>
 
 <head>

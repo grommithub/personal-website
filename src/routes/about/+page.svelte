@@ -19,7 +19,7 @@
 
 <div class="flex flex-col-reverse lg:flex-row p-5 w-full uw:w-2/3 m-auto overflow-hidden lg:grid-cols-2"
 class:hidden={!shown} class:absolute={!shown}>
-  <div class="w-full lg:w-1/2 m-auto">
+  <div class="w-full m-auto">
     <img
 
       in:fly={{ x: -1000, duration: 1000, delay: 500 }}
