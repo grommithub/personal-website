@@ -17,7 +17,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 />
 
-<div class="flex flex-col-reverse lg:flex-row p-5 w-full uw:w-2/3 m-auto overflow-hidden lg:grid-cols-2"
+<div class="flex flex-col-reverse lg:flex-row p-5 w-full lg:w-5/6 uw:w-2/3 m-auto overflow-hidden lg:grid-cols-2"
 class:hidden={!shown} class:absolute={!shown}>
   <div class="w-full m-auto">
     <img
@@ -32,7 +32,7 @@ class:hidden={!shown} class:absolute={!shown}>
     class="divider lg:divider-horizontal"
     in:fly={{ y: -1000, duration: 1000, delay: 500 }}
   ></div>
-  <div class="flex flex-grow flex-col justify-evenly p-5">
+  <div class="flex flex-grow flex-col justify-center p-5">
     <h2 class="text-5xl" in:fly={{ x: 1000, duration: 1000 }}>About</h2>
     <div
       class="divider divider-start w-full"
