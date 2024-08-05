@@ -33,8 +33,7 @@
         </div> -->
   </Card>
   <div class="divider"></div>
-  <ul>
-    <li>
+
       <ProjectCard
         title={"Endless Runner"}
         tags={["C++", "SDL2"]}
@@ -55,8 +54,7 @@
         </ul>
         Everything was made by me as part of a school project.
       </ProjectCard>
-    </li>
-    <li>
+
       <ProjectCard
         title={"Aescension"}
         tags={["Unreal Engine", "Blueprints", "Audio"]}
@@ -88,12 +86,10 @@
           target="_blank">2021 Gotland Game Conference</a
         >.
       </ProjectCard>
-    </li>
-    <li>
+
 
       <ProjectCard></ProjectCard>
-    </li>
-  </ul>
+
   <Card>
     Not everything is documented here but more can be found on my itch, github
     and linkedin.
