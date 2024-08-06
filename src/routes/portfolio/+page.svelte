@@ -68,7 +68,7 @@
     >.
   </ProjectCard>
 
-    <!--Chatfindr-->
+  <!--Chatfindr-->
   <ProjectCard
     title={"ChatFindr"}
     src={"ChatFindr.gif"}
@@ -170,6 +170,16 @@
     thesis.
   </ProjectCard>
 
+  <!--Game changer-->
+  <ProjectCard
+    title={"Game Changer"}
+    src={"game-changer.gif"}
+    tags={["Unity", "C#"]}
+  >
+    This is a top-down arcade-style shooter where the goal is to score as many
+    points as possible. However, the rules for what scores you points changes
+    every 10 seconds.
+  </ProjectCard>
   <!-- Endless runner-->
   <ProjectCard title={"Endless Runner"} tags={["C++", "SDL2"]}>
     This is an endless runner game made from scratch in C++ using SDL2.
@@ -185,7 +195,19 @@
     Everything was made by me as part of a school project.
   </ProjectCard>
 
+  <ProjectCard
+    title={"Spacetime"}
+    src={"spacetime.gif"}
+    tags={["Unity", "C#"]}
+    link={{ url: "https://grommitchio.itch.io/spacetime", display: "Itch.io" }}
+  >
+    This is a space-shooter where you can reverse time.
+  </ProjectCard>
 
+  <ProjectCard title={"This very website!"} src={"mobile.gif"} mobile_src={"desktop.png"} tags={["SvelteKit", "Tailwind"]}>
+      <p class="hidden lg:block">Did you know that it dynamically adapts to mobile displays?</p>
+      <p class="block lg:hidden">Did you know that it dynamically adapts to desktop displays?</p>
+  </ProjectCard>
 
   <div class="divider w-full"></div>
   <Card>
