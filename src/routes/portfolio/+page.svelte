@@ -14,17 +14,17 @@
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
+<div class="pb-5 m-auto w-11/12 lg:w-full lg:w-5/6  uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
   <h1 class="text-3xl lg:text-5xl pt-5 w-full divider my-10 z-20" in:fly={{ y: -500, duration: 1000 }}>
     Software Portfolio
   </h1>
   <Card y={1000} duration={1000} delay={750}>
-    <div class="text-base lg:text-lg uw:text-2xl mb-5 text-center pt-5 text-wrap w-full">
+    <div class="text-base lg:text-lg uw:text-2xl text-center w-full mb-5 pr-5">
       Here you can find some of the noteworthy software I've worked on in recent
       years.
       <br />
     </div>
-    <h3 class="text-xl divider w-full lg:w-1/2 mx-auto">Watch a playthrough of my playable CV</h3>
+    <h3 class="text-lg text-center lg:divider w-full lg:w-1/2 mx-auto">Watch a playthrough of my playable CV</h3>
     <div class="aspect-video w-full lg:w-1/2 m-auto">
       <iframe
         class="w-full h-full"
@@ -37,7 +37,7 @@
       ></iframe>
     </div>
   </Card>
-  <div class="divider" in:fly={{ x: 1000, duration: 1000, delay: 1500}}></div>
+  <div class="divider" in:fly={{ y: 1000, duration: 1000, delay: 1000}}></div>
 
   <!--Aescension-->
   <ProjectCard
@@ -65,11 +65,7 @@
     >
       few awards
     </div>
-    at the<a
-      class="link"
-      href="https://gotlandgameconference.com/2021/the-awards/"
-      target="_blank">2021 Gotland Game Conference</a
-    >.
+    at the <a class="link" href="https://gotlandgameconference.com/2021/the-awards/" target="_blank">2021 Gotland Game Conference</a>.
   </ProjectCard>
 
   <!--Chatfindr-->

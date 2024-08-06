@@ -30,5 +30,6 @@
     @apply lg:text-lg;
     @apply uw:text-xl;
     @apply lg:leading-snug;
+    @apply text-wrap;
   }
 </style>

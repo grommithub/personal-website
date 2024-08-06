@@ -14,8 +14,8 @@
 </script>
 
 <div
-  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden -z-10"
-in:fly={{y:1000, duration: 1000, delay:1000}}>
+  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden -z-10 border-primary-content border-2"
+in:fly={{y:1000, duration: 1000, delay:1500}}>
   <div class="w-full h-full bg-black content-center">
     <img {src} class="w-full h-fit" alt={title} 
     class:hidden={mobile_src != ""}
