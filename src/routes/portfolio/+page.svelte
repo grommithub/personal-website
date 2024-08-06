@@ -18,11 +18,11 @@
     <div class="text-base lg:text-lg uw:text-2xl mb-5">
       Here you can find some of the noteworthy software I've worked on in recent
       years.
-      <br>
+      <br />
     </div>
-
+    <h2 class="text-xl">Watch a playthrough of my playable CV</h2>
     <div class="aspect-video w-full">
-        <iframe
+      <iframe
         class=" w-full h-full"
         src="https://www.youtube.com/embed/Bmz75Dwe8GY?si=DWtGUik7oY2UfflY"
         title="YouTube video player"
@@ -30,23 +30,64 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-        ></iframe>
-        </div>
+      ></iframe>
+    </div>
   </Card>
   <div class="divider"></div>
-  <!-- Endless runner-->
-  <ProjectCard title={"Endless Runner"} tags={["C++", "SDL2"]}>
-    This is an endless runner game made from scratch in C++ using SDL2.
+
+  <!--Aescension-->
+  <ProjectCard
+    title={"Aescension"}
+    tags={["Unreal Engine", "Blueprints", "Audio"]}
+    src={"https://img.itch.zone/aW1hZ2UvOTkwMDA0LzYwOTc0NTkuZ2lm/794x1000/mAcv5T.gif"}
+    link={{
+      url: "https://grommitchio.itch.io/aescension",
+      display: "Itch.io",
+    }}
+  >
+    Aescension is a thriller game I scripted the gameplay for.
     <br />
-    Key features include:
+    I worked on:
     <ul>
-      <li>Stores any number of viewable replays</li>
-      <li>Sprite animations</li>
-      <li>Particle systems</li>
-      <li>Screenshake</li>
-      <li>Parallaxing background</li>
+      <li>Puzzles and their logic</li>
+      <li>Player controller</li>
+      <li>Implementation of all audio and certain visual effects</li>
+      <li>Scripted sequences</li>
     </ul>
-    Everything was made by me as part of a school project.
+    The game won a
+    <div
+      class="tooltip underline"
+      data-tip="#1 Best Art Direction, #1 Best Audio, #3 Best Overall and #3 Best Storytelling "
+    >
+      few awards
+    </div>
+    at the<a
+      class="link"
+      href="https://gotlandgameconference.com/2021/the-awards/"
+      target="_blank">2021 Gotland Game Conference</a
+    >.
+  </ProjectCard>
+
+    <!--Chatfindr-->
+  <ProjectCard
+    title={"ChatFindr"}
+    src={"ChatFindr.gif"}
+    tags={["C#", "ASP.NET", "Javascript", "Websockets"]}
+  >
+    A realtime anonymous chat for the browser. Works well for both mobile and
+    desktop. Developed full-stack by me.
+    <br />
+    Allows for chats between random strangers. Also supports the use of tagged matchmaking,
+    allowing you to match with other users who share your interests.
+  </ProjectCard>
+
+  <!--Unscrabble-->
+  <ProjectCard
+    title={"Unscrabble"}
+    src={"unscrabble.gif"}
+    tags={["Svelte", "Javascript", "HTML", "Tailwind"]}
+  >
+    Unscrabble is a word game for the browser where you Unscrabble™️ words.
   </ProjectCard>
 
   <!--Zelda-->
@@ -85,58 +126,68 @@
     A maze generator which writes things. Uses a depth-first search algorithm
     with a recursive backtracker and is highly customizable.
     <br /><br />
-    Simply put, the tracker wanders around randomly across unvisited cells, drawing its path. When the tracker gets stuck it'll backtrack its journey until it finds a cell which has at least one unvisited neighbour, then continues wandering randomly from there. Once it cannot find a cell in its history without any unvisited neighbours, the maze is complete.
+    Simply put, the tracker wanders around randomly across unvisited cells, drawing
+    its path. When the tracker gets stuck it'll backtrack its journey until it finds
+    a cell which has at least one unvisited neighbour, then continues wandering randomly
+    from there. Once it cannot find a cell in its history without any unvisited neighbours,
+    the maze is complete.
     <br />
     <br />
-    Before the maze is generated the text is overlayed on the grid and all the cells that make up the text are marked as already visited, preventing the tracker from ever drawing over them.
+    Before the maze is generated the text is overlayed on the grid and all the cells
+    that make up the text are marked as already visited, preventing the tracker from
+    ever drawing over them.
   </ProjectCard>
 
-  <!--Aescension-->
+  <!--Holiday halfpipe-->
   <ProjectCard
-    title={"Aescension"}
-    tags={["Unreal Engine", "Blueprints", "Audio"]}
-    src={"https://img.itch.zone/aW1hZ2UvOTkwMDA0LzYwOTc0NTkuZ2lm/794x1000/mAcv5T.gif"}
+    title={"Holiday Halfpipe"}
+    src={"holiday-halfpipe.gif"}
     link={{
-      url: "https://grommitchio.itch.io/aescension",
+      url: "https://lemorrows.itch.io/holiday-halfpipe",
       display: "Itch.io",
     }}
+    tags={["Unity", "C#"]}
   >
-    Aescension is a thriller game I scripted the gameplay for.
-    <br />
-    I worked on:
-    <ul>
-      <li>Puzzles and their logic</li>
-      <li>Player controller</li>
-      <li>Implementation of all audio and certain visual effects</li>
-      <li>Scripted sequences</li>
-    </ul>
-    The game won a
-    <div
-      class="tooltip underline"
-      data-tip="#1 Best Art Direction, #1 Best Audio, #3 Best Overall and #3 Best Storytelling "
-    >
-      few awards
-    </div>
-    at the<a
-      class="link"
-      href="https://gotlandgameconference.com/2021/the-awards/"
-      target="_blank">2021 Gotland Game Conference</a
-    >.
+    This is a Christmas-themed snowboarding game. The goal is to do tricks to
+    score as many points as possible before dying.<br /><br />Made in Unity with
+    a small team for the Ludum Dare 53 game jam.
   </ProjectCard>
 
-  <!--Chatfindr-->
+  <!--Thesis-->
   <ProjectCard
-    title={"ChatFindr"}
-    src={"ChatFindr.gif"}
-    tags={["C#", "ASP.NET", "Javascript", "Websockets"]}
+    title={"I'll Be Missing You (Thesis project)"}
+    src={"thesis.jpg"}
+    link={{
+      url: "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1669633&dswid=-4993",
+      display: "Read it here",
+    }}
+    tags={["Unreal", "C++", "Excel", "Yaml"]}
   >
-    A realtime anonymous chat for the browser. Works well for both mobile and
-    desktop. Developed full-stack by me.
-    <br />
-    Allows for chats between random strangers. Also supports the use of tagged matchmaking,
-    allowing you to match with other users who share your interests.
+    This is a thesis I co-wrote and coded the test environment for. The purpose
+    was to study the effects movement inaccuracy has on FPS gameplay. We had 28
+    participants conduct 420 completions of a target practice course(total) and
+    collected 90,000+ data points to analyze FPS gameplay in this 69 page
+    thesis.
   </ProjectCard>
 
+  <!-- Endless runner-->
+  <ProjectCard title={"Endless Runner"} tags={["C++", "SDL2"]}>
+    This is an endless runner game made from scratch in C++ using SDL2.
+    <br />
+    Key features include:
+    <ul>
+      <li>Stores any number of viewable replays</li>
+      <li>Sprite animations</li>
+      <li>Particle systems</li>
+      <li>Screenshake</li>
+      <li>Parallaxing background</li>
+    </ul>
+    Everything was made by me as part of a school project.
+  </ProjectCard>
+
+
+
+  <div class="divider w-full"></div>
   <Card>
     Not everything is documented here but more can be found on my itch, github
     and linkedin.
