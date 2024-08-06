@@ -2,19 +2,23 @@
   import ProjectCard from "../../components/ProjectCard.svelte";
   import type { PageData } from "./$types";
   import Card from "../../components/Card.svelte";
+  import { onMount } from "svelte";
+  import { fly } from "svelte/transition";
 
   export let data: PageData;
+  let flyIn = false;
+  onMount(()=> flyIn = true)
 </script>
 
 <!-- <div class="mockup-browser bg-base-300 border w-fit h-fit w-1/3">
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2">
-  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider divider-start my-10">
+<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2" class:invisible={!flyIn}>
+  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider divider-start my-10" in:fly={{ x: 1000, duration: 1000 }}>
     Software Portfolio
   </h1>
-  <Card>
+  <Card x={1000} duration={1000} delay={250}>
     <div class="text-base lg:text-lg uw:text-2xl mb-5">
       Here you can find some of the noteworthy software I've worked on in recent
       years.

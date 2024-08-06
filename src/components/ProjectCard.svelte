@@ -1,4 +1,6 @@
 <script lang="ts">
+  import { fly } from "svelte/transition";
+
   interface Link {
     url: string;
     display: string;
@@ -13,7 +15,7 @@
 
 <div
   class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden"
->
+in:fly={{x:-1000, duration: 1000}}>
   <div class="w-full h-full bg-black content-center">
     <img {src} class="w-full h-fit" alt={title} 
     class:hidden={mobile_src != ""}
