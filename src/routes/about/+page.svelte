@@ -36,7 +36,7 @@ class:hidden={!shown} class:absolute={!shown}>
     <h2 class="text-5xl" in:fly={{ x: 1000, duration: 1000 }}>About</h2>
     <div
       class="divider divider-start w-full"
-      in:fly={{ x: 1000, duration: 1000, delay: 3000 }}
+      in:fly={{ x: 1000, duration: 1000, delay: 750 }}
     ></div>
     <Card x={1000} duration={1000} delay={500}>
       <h3 class="text-3xl uw:text-4xl text-wrap">My name is Dan and I develop software.</h3>

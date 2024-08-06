@@ -51,9 +51,9 @@
   <div class="hero flex grow">
     <div class="hero-content flex-col lg:flex-row">
       <div class="avatar mx-14 z-10">
-        <div class=" w-56 mask mask-hexagon">
+        <div class="w-56 mask mask-hexagon">
           <img
-            transition:fly={{ delay: 0, duration: 1000, x: -500 }}
+            transition:fly={{duration: 1000, x: -500 }}
             src="dan-face.png"
             alt="Dan's face"
           />
@@ -61,29 +61,25 @@
       </div>
       <div>
         <a
-          class="text-5xl font-bold"
-          transition:fly={{ delay: 1000, duration: 1000, x: -500 }}
+          class="text-5xl font-bold hover:underline"
+          in:fly={{ delay: 1000, duration: 1000, x: -500 }}
           href="/about"
         >
           Dan Burt
         </a>
 
+        <h2 class="text-2xl" in:fly={{ delay: 1500, duration: 1000, x: -500 }}>Talented Young Man</h2>
+
         <div class="flex flex-col justify-center">
           <ul class="text-xl list-disc">
-            <li transition:fly={{ delay: 1500, duration: 1000, x: -500 }}>
-              <a class="link" href="https://github.com/grommithub"
-                >Software engineer</a
-              >
-            </li>
             <li transition:fly={{ delay: 2000, duration: 1000, x: -500 }}>
-              <a
-                class="link"
-                href="https://grommitchio.itch.io/"
-                target="_blank">Game developer</a
-              >
+              Software engineer
             </li>
             <li transition:fly={{ delay: 2500, duration: 1000, x: -500 }}>
-              <a class="link" href="/about">Web designer</a>
+              Game developer
+            </li>
+            <li transition:fly={{ delay: 3000, duration: 1000, x: -500 }}>
+              Web designer
             </li>
           </ul>
         </div>
@@ -91,14 +87,21 @@
     </div>
   </div>
 
-
-  <div class="toast toast-end" transition:fly={{delay:43000, x: 500, duration: 500}}>
+  <div
+    class="toast toast-end"
+    transition:fly={{ delay: 43000, x: 500, duration: 500 }}
+  >
     <div class="alert alert-info">
       <div class="flex flex-col">
-
         <p>Mesmerized by the maze generation?</p>
-        <p>Check out the C++ source code <a href="https://github.com/grommithub/Maze-Writer" target="_blank" class="link">here</a></p>
+        <p>
+          Check out the C++ source code <a
+            href="https://github.com/grommithub/Maze-Writer"
+            target="_blank"
+            class="link">here</a
+          >
+        </p>
       </div>
-      </div>
+    </div>
   </div>
 {/if}

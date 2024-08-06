@@ -28,6 +28,13 @@
 </div>
 
 <style>
+
+:global(ul) {
+    @apply list-disc;
+    @apply pl-4;
+    @apply leading-tight;
+  }
+
   div {
     font-family: "Roboto", monospace;
   }

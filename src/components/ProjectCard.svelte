@@ -15,7 +15,7 @@
 
 <div
   class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden -z-10"
-in:fly={{y:-1000, duration: 1000, delay:1500}}>
+in:fly={{y:1000, duration: 1000, delay:1000}}>
   <div class="w-full h-full bg-black content-center">
     <img {src} class="w-full h-fit" alt={title} 
     class:hidden={mobile_src != ""}
@@ -58,12 +58,6 @@ in:fly={{y:-1000, duration: 1000, delay:1500}}>
 </div>
 
 <style>
-  :global(ul) {
-    @apply list-disc;
-    @apply pl-4;
-    @apply m-2;
-    @apply leading-tight;
-  }
 
   :global(.project p) {
     @apply lg:pl-5;
