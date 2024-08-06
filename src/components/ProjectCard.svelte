@@ -20,7 +20,7 @@
     <h2 class="divider w-full divider-start">
       {title}
     </h2>
-    <p class="text-wrap my-auto">
+    <p class="text-wrap h-fit my-auto">
       <slot></slot>
     </p>
     <div class="card-actions justify-start"></div>

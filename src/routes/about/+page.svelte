@@ -17,7 +17,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 />
 
-<div class="flex flex-col-reverse lg:flex-row p-5 w-full lg:w-5/6 uw:w-2/3 m-auto overflow-hidden lg:grid-cols-2"
+<div class="flex flex-col-reverse lg:flex-row p-5 w-full lg:w-5/6 uw:w-3/5 m-auto overflow-hidden lg:grid-cols-2"
 class:hidden={!shown} class:absolute={!shown}>
   <div class="w-full m-auto">
     <img

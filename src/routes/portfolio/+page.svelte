@@ -15,13 +15,13 @@
     Software Portfolio
   </h1>
   <Card>
-
-    <div class="text-base lg:text-lg uw:text-2xl">
+    <div class="text-base lg:text-lg uw:text-2xl mb-5">
       Here you can find some of the noteworthy software I've worked on in recent
       years.
+      <br>
     </div>
 
-    <!-- <div class="aspect-video w-full">
+    <div class="aspect-video w-full">
         <iframe
         class=" w-full h-full"
         src="https://www.youtube.com/embed/Bmz75Dwe8GY?si=DWtGUik7oY2UfflY"
@@ -31,14 +31,11 @@
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
         ></iframe>
-        </div> -->
+        </div>
   </Card>
   <div class="divider"></div>
-
-  <ProjectCard
-    title={"Endless Runner"}
-    tags={["C++", "SDL2"]}
-  >
+  <!-- Endless runner-->
+  <ProjectCard title={"Endless Runner"} tags={["C++", "SDL2"]}>
     This is an endless runner game made from scratch in C++ using SDL2.
     <br />
     Key features include:
@@ -52,6 +49,49 @@
     Everything was made by me as part of a school project.
   </ProjectCard>
 
+  <!--Zelda-->
+  <ProjectCard
+    title={"Zelda Clone"}
+    src={"zelda.gif"}
+    tags={["C++", "SDL2"]}
+    link={{
+      url: "https://github.com/grommithub/Cpp-Zelda-2019",
+      display: "Github",
+    }}
+  >
+    A partial clone of 1986's The Legend of Zelda programmed in C++.
+    <br />Features:
+    <ul>
+      <li>Sprite animations</li>
+      <li>File-based tilemap generation</li>
+      <li>Enemies</li>
+      <li>Item drops</li>
+    </ul>
+
+    Made as a school project. Graphics and audio are taken from the original
+    game.
+  </ProjectCard>
+
+  <!--Maze writer-->
+  <ProjectCard
+    title={"Maze Writer"}
+    src={"maze.gif"}
+    tags={["C++", "SDL2"]}
+    link={{
+      url: "https://github.com/grommithub/Maze-Writer",
+      display: "Github",
+    }}
+  >
+    A maze generator which writes things. Uses a depth-first search algorithm
+    with a recursive backtracker and is highly customizable.
+    <br /><br />
+    Simply put, the tracker wanders around randomly across unvisited cells, drawing its path. When the tracker gets stuck it'll backtrack its journey until it finds a cell which has at least one unvisited neighbour, then continues wandering randomly from there. Once it cannot find a cell in its history without any unvisited neighbours, the maze is complete.
+    <br />
+    <br />
+    Before the maze is generated the text is overlayed on the grid and all the cells that make up the text are marked as already visited, preventing the tracker from ever drawing over them.
+  </ProjectCard>
+
+  <!--Aescension-->
   <ProjectCard
     title={"Aescension"}
     tags={["Unreal Engine", "Blueprints", "Audio"]}
@@ -77,17 +117,24 @@
     >
       few awards
     </div>
-    at the <a
+    at the<a
       class="link"
       href="https://gotlandgameconference.com/2021/the-awards/"
       target="_blank">2021 Gotland Game Conference</a
     >.
   </ProjectCard>
 
-  <ProjectCard title={"ChatFindr"} src={"ChatFindr.gif"} tags={["C#", "ASP.NET", "Javascript", "Websockets"]}>
-    A realtime anonymous chat for the browser. Works well for both mobile and desktop. Developed full-stack by me.
-    <br>
-    Allows for chats between random strangers. Also supports the use of tagged matchmaking, allowing you to match with other users who share your interests.
+  <!--Chatfindr-->
+  <ProjectCard
+    title={"ChatFindr"}
+    src={"ChatFindr.gif"}
+    tags={["C#", "ASP.NET", "Javascript", "Websockets"]}
+  >
+    A realtime anonymous chat for the browser. Works well for both mobile and
+    desktop. Developed full-stack by me.
+    <br />
+    Allows for chats between random strangers. Also supports the use of tagged matchmaking,
+    allowing you to match with other users who share your interests.
   </ProjectCard>
 
   <Card>
