@@ -14,20 +14,20 @@
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2" class:invisible={!flyIn}>
-  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider divider-start my-10" in:fly={{ x: 1000, duration: 1000 }}>
+<div class="px-5 pb-5 w-full lg:w-5/6 m-auto uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
+  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider my-10 z-20" in:fly={{ y: -500, duration: 1000 }}>
     Software Portfolio
   </h1>
-  <Card x={1000} duration={1000} delay={250}>
-    <div class="text-base lg:text-lg uw:text-2xl mb-5">
+  <Card y={-1000} duration={1000} delay={500}>
+    <div class="text-base lg:text-lg uw:text-2xl mb-5 text-center pt-5">
       Here you can find some of the noteworthy software I've worked on in recent
       years.
       <br />
     </div>
-    <h2 class="text-xl">Watch a playthrough of my playable CV</h2>
-    <div class="aspect-video w-full">
+    <h3 class="text-xl divider w-full">Watch a playthrough of my playable CV</h3>
+    <div class="aspect-video w-full lg:w-1/2 m-auto">
       <iframe
-        class=" w-full h-full"
+        class="w-full h-full"
         src="https://www.youtube.com/embed/Bmz75Dwe8GY?si=DWtGUik7oY2UfflY"
         title="YouTube video player"
         frameborder="0"
@@ -37,7 +37,7 @@
       ></iframe>
     </div>
   </Card>
-  <div class="divider"></div>
+  <div class="divider" in:fly={{ x: 1000, duration: 1000, delay: 3000}}></div>
 
   <!--Aescension-->
   <ProjectCard
