@@ -14,7 +14,7 @@
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="pb-5 m-auto w-11/12 lg:w-full lg:w-5/6  uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
+<div class="pb-5 m-auto w-11/12 lg:w-4/6  uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
   <h1 class="text-3xl lg:text-5xl pt-5 w-full divider my-10 z-20" in:fly={{ y: -500, duration: 1000 }}>
     Software Portfolio
   </h1>

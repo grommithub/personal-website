@@ -33,7 +33,7 @@
 <button class="btn btn-secondary"></button>
 <button class="btn btn-accent"></button> -->
   <div
-    class="absolute h-screen w-screen -z-20 m-auto overflow-hidden flex justify-center"
+    class="absolute h-screen w-screen -z-20 m-auto overflow-hidden flex "
   >
     <video class="h-full w-fit -z-20 absolute" muted autoplay>
       <source src="maze-bg-zoomed.mp4" type="video/mp4" />
@@ -49,7 +49,8 @@
   </div>
 
   <div class="hero flex grow">
-    <div class="hero-content flex-col lg:flex-row">
+
+    <div class="hero-content flex-col">
       <div class="avatar mx-14 z-10">
         <div class="w-56 mask mask-hexagon">
           <img
@@ -87,8 +88,12 @@
     </div>
   </div>
 
+
+
+
+
   <div
-    class="toast toast-end"
+    class="toast toast-end lg:hidden"
     transition:fly={{ delay: 43000, x: 500, duration: 500 }}
   >
     <div class="alert alert-info">
