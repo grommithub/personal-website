@@ -6,7 +6,7 @@
   import { page } from "$app/stores";
 
   let flyIn = false;
-  $: shown = flyIn && $page.route.id?.match('about');
+  $: shown = flyIn && $page.route.id?.match("about");
   onMount(() => (flyIn = true));
 
   export let data: PageData;
@@ -17,11 +17,13 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
 />
 
-<div class="flex flex-col-reverse lg:flex-row p-5 w-full lg:w-5/6 uw:w-3/5 m-auto overflow-hidden lg:grid-cols-2"
-class:hidden={!shown} class:absolute={!shown}>
+<div
+  class="flex flex-col-reverse lg:flex-row p-5 w-full lg:w-5/6 uw:w-3/5 m-auto overflow-hidden lg:grid-cols-2"
+  class:hidden={!shown}
+  class:absolute={!shown}
+>
   <div class="w-full m-auto">
     <img
-
       in:fly={{ x: -1000, duration: 1000, delay: 500 }}
       alt="Me squatting next to a climbing rock"
       class="card bg-base-300 rounded-box shadow-lg m-auto"
@@ -39,7 +41,9 @@ class:hidden={!shown} class:absolute={!shown}>
       in:fly={{ x: 1000, duration: 1000, delay: 750 }}
     ></div>
     <Card x={1000} duration={1000} delay={500}>
-      <h3 class="text-3xl uw:text-4xl text-wrap">My name is Dan and I develop software.</h3>
+      <h3 class="text-3xl uw:text-4xl text-wrap">
+        My name is Dan and I develop software.
+      </h3>
       <div class="divider divider-start w-full">Education</div>
       <p>
         I have a bachelor's degree in <a
@@ -77,10 +81,12 @@ class:hidden={!shown} class:absolute={!shown}>
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
       <p>
-        As my contract came to a close I decided to dedicate my self to learning web development. Currently I'm looking for new work in software development and adjacent fields.
-        If you're curious I implore you to
-        browse my portfolio and if you like what you see you're free to get in
-        touch.
+        As my contract was coming to a close I decided to dedicate my self to
+        learning web development. Currently I'm looking for new work in software
+        development and adjacent fields. If you're curious I implore you to
+        browse my <a href="/portfolio" class="link">portfolio</a> and if you
+        like what you see you're free to
+        <a href="/contact" class="link">get in touch.</a>
       </p>
     </Card>
   </div>
