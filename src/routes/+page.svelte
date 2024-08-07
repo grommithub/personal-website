@@ -35,22 +35,16 @@
   <div
     class="absolute h-screen w-screen -z-20 m-auto overflow-hidden flex justify-center"
   >
-    <video class="h-full w-fit -z-20 absolute" muted autoplay>
+    <video class="h-full w-fit -z-20 absolute hidden lg:block" muted autoplay>
       <source src="maze-bg-zoomed.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
     <div class="bg-base-200 bg-opacity-85 w-full h-full"></div>
-
-    <!-- <img
-      class="-z-20 absolute h-full object-cover translate-x-0.5"
-      alt="Maze generator"
-      src="bg-maze"
-    /> -->
   </div>
 
   <div class="hero flex grow">
 
-    <div class="hero-content flex-col lg:flex-row">
+    <div class="hero-content flex-col lg:flex-row mx-auto lg:mx-0">
       <div class="avatar mx-14 z-10">
         <div class="w-56 mask mask-hexagon">
           <img

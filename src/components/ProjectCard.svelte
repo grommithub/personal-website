@@ -14,7 +14,7 @@
 </script>
 
 <div
-  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden -z-10 border-primary-content border-2"
+  class="project card bg-base-300 w-full shadow-xl m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden border-primary-content border-2"
 in:fly={{y:1000, duration: 1000, delay:1500}}>
   <div class="w-full h-full bg-black content-center">
     <img {src} class="w-full h-fit" alt={title} 
@@ -47,7 +47,7 @@ in:fly={{y:1000, duration: 1000, delay:1500}}>
         <a
           href={link.url}
           target="_blank"
-          class="tooltip ml-5"
+          class="tooltip tooltip-left ml-5"
           data-tip={link.url}
         >
           <button class="btn btn-primary">{link.display}</button>
@@ -56,6 +56,7 @@ in:fly={{y:1000, duration: 1000, delay:1500}}>
     </div>
   </div>
 </div>
+
 
 <style>
 

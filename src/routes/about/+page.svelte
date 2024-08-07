@@ -77,8 +77,8 @@ class:hidden={!shown} class:absolute={!shown}>
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
       <p>
-        Since my employment contract expired I've been looking for a job in tech
-        and working on personal projects. If you're curious I implore you to
+        As my contract came to a close I decided to dedicate my self to learning web development. Currently I'm looking for new work in software development and adjacent fields.
+        If you're curious I implore you to
         browse my portfolio and if you like what you see you're free to get in
         touch.
       </p>
