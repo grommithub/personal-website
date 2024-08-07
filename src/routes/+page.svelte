@@ -63,7 +63,7 @@
           Dan Burt
         </a>
 
-        <h2 class="text-2xl" in:fly={{ delay: 1500, duration: 1000, x: -500 }}>Talented Young Man</h2>
+        <!-- <h2 class="text-2xl" in:fly={{ delay: 1500, duration: 1000, x: -500 }}>Talented Young Man</h2> Humility restored -->
 
         <div class="flex flex-col justify-center">
           <ul class="text-xl list-disc">
