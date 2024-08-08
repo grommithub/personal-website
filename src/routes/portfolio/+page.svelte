@@ -7,15 +7,21 @@
 
   export let data: PageData;
   let flyIn = false;
-  onMount(()=> flyIn = true)
+  onMount(() => (flyIn = true));
 </script>
 
 <!-- <div class="mockup-browser bg-base-300 border w-fit h-fit w-1/3">
         <img src="https://i.imgur.com/VnIKHN9.gif"/>
   </div> -->
 
-<div class="pb-5 m-auto w-11/12 lg:w-4/6  uw:w-1/2 overflow-hidden text-wrap" class:invisible={!flyIn}>
-  <h1 class="text-3xl lg:text-5xl pt-5 w-full divider my-10 z-20" in:fly={{ y: -500, duration: 1000 }}>
+<div
+  class="pb-5 m-auto w-11/12 lg:w-4/6 uw:w-1/2 overflow-hidden text-wrap"
+  class:invisible={!flyIn}
+>
+  <h1
+    class="text-3xl lg:text-5xl pt-5 w-full divider my-10 z-20"
+    in:fly={{ y: -500, duration: 1000 }}
+  >
     Software Portfolio
   </h1>
   <Card y={1000} duration={1000} delay={750}>
@@ -24,7 +30,9 @@
       years.
       <br />
     </div>
-    <h3 class="text-lg text-center lg:divider w-full lg:w-1/2 mx-auto">Watch a playthrough of my playable CV</h3>
+    <h3 class="text-lg text-center lg:divider w-full lg:w-1/2 mx-auto">
+      Watch a playthrough of my playable CV
+    </h3>
     <div class="aspect-video w-full lg:w-1/2 m-auto">
       <iframe
         class="w-full h-full"
@@ -37,7 +45,7 @@
       ></iframe>
     </div>
   </Card>
-  <div class="divider" in:fly={{ y: 1000, duration: 1000, delay: 1000}}></div>
+  <div class="divider" in:fly={{ y: 1000, duration: 1000, delay: 1000 }}></div>
 
   <!--Aescension-->
   <ProjectCard
@@ -65,7 +73,11 @@
     >
       few awards
     </div>
-    at the <a class="link" href="https://gotlandgameconference.com/2021/the-awards/" target="_blank">2021 Gotland Game Conference</a>.
+    at the <a
+      class="link"
+      href="https://gotlandgameconference.com/2021/the-awards/"
+      target="_blank">2021 Gotland Game Conference</a
+    >.
   </ProjectCard>
 
   <!--Chatfindr-->
@@ -180,6 +192,34 @@
     points as possible. However, the rules for what scores you points changes
     every 10 seconds.
   </ProjectCard>
+
+  <!--Prime factory-->
+  <ProjectCard
+    title={"Multi-threaded Prime Factory"}
+    src={"primes.jpg"}
+    tags={["C++", "Multi-threading"]}
+    link={{
+      url: "https://github.com/grommithub/Prime-Factory",
+      display: "Github",
+    }}
+  >
+    An exploration into optimization in C++. This program is designed to find
+    prime numbers as quickly as possible using multi-threading and a few
+    techniques to reduce the total workload and divide it evenly among all
+    threads.
+    <br /><br />
+    <div class="pl-0">
+      <div class="tooltip underline" data-tip="Using Ryzen 7 5800X3D">
+        Times
+      </div>
+       for finding all primes &lt; 1 billion:
+    </div>
+    <ul class="list-none">
+      <li>Serial function: <code>9:29</code></li>
+      <li>Thread function: <code>0:42</code></li>
+    </ul>
+  </ProjectCard>
+
   <!-- Endless runner-->
   <ProjectCard title={"Endless Runner"} tags={["C++", "SDL2"]}>
     This is an endless runner game made from scratch in C++ using SDL2.
@@ -204,16 +244,41 @@
     This is a space-shooter where you can reverse time.
   </ProjectCard>
 
-  <ProjectCard title={"This very website!"} src={"mobile.gif"} mobile_src={"desktop.png"} tags={["SvelteKit", "Tailwind", "DaisyUI"]} link={{url:"https://github.com/grommithub/personal-website", display:"Github"}}>
-      This site is custom-made by me using SvelteKit, TailwindCSS and the DaisyUI component library.
-      <div class="hidden lg:block">Did you know that it dynamically adapts to mobile displays?</div>
-      <div class="block lg:hidden">Did you know that it dynamically adapts to desktop displays?</div>
+  <ProjectCard
+    title={"This very website!"}
+    src={"mobile.gif"}
+    mobile_src={"desktop.png"}
+    tags={["SvelteKit", "Tailwind", "DaisyUI"]}
+    link={{
+      url: "https://github.com/grommithub/personal-website",
+      display: "Github",
+    }}
+  >
+    This site is custom-made by me using SvelteKit, TailwindCSS and the DaisyUI
+    component library.
+    <div class="hidden lg:block">
+      Did you know that it dynamically adapts to mobile displays?
+    </div>
+    <div class="block lg:hidden">
+      Did you know that it dynamically adapts to desktop displays?
+    </div>
   </ProjectCard>
 
   <div class="divider w-full"></div>
   <Card>
-    <p>More can be found on my <a class="link" href="https://grommitchio.itch.io/" target="_blank">Itch</a>, on my <a class="link" target="_blank" href="https://github.com/grommithub">Github</a>
-    and my <a class="link" href="https://linkedin.com/in/daniel-burt" target="_blank">LinkedIn</a>.
+    <p>
+      More can be found on my <a
+        class="link"
+        href="https://grommitchio.itch.io/"
+        target="_blank">Itch</a
+      >, on my
+      <a class="link" target="_blank" href="https://github.com/grommithub"
+        >Github</a
+      >
+      and my
+      <a class="link" href="https://linkedin.com/in/daniel-burt" target="_blank"
+        >LinkedIn</a
+      >.
     </p>
   </Card>
 </div>
