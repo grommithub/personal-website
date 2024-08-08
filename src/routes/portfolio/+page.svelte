@@ -204,7 +204,7 @@
     This is a space-shooter where you can reverse time.
   </ProjectCard>
 
-  <ProjectCard title={"This very website!"} src={"mobile.gif"} mobile_src={"desktop.png"} tags={["SvelteKit", "Tailwind", "DaisyUI"]}>
+  <ProjectCard title={"This very website!"} src={"mobile.gif"} mobile_src={"desktop.png"} tags={["SvelteKit", "Tailwind", "DaisyUI"]} link={{url:"https://github.com/grommithub/personal-website", display:"Github"}}>
       This site is custom-made by me using SvelteKit, TailwindCSS and the DaisyUI component library.
       <div class="hidden lg:block">Did you know that it dynamically adapts to mobile displays?</div>
       <div class="block lg:hidden">Did you know that it dynamically adapts to desktop displays?</div>
