@@ -13,8 +13,7 @@
 <head>
   <title>Dan Burt {$page.route.id?.slice(1).charAt(0).toUpperCase() + $page.route.id?.slice(2)}</title>
 
-  <link rel="icon" href="favicon.jpeg">
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="favicon.ico">
   <link rel="icon" href="favicon.gif">
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
