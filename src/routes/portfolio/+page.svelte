@@ -212,7 +212,7 @@
       <div class="tooltip underline" data-tip="Using Ryzen 7 5800X3D">
         Times
       </div>
-       for finding all primes &lt; 1 billion:
+      for finding all primes &lt; 1 billion:
     </div>
     <ul class="list-none">
       <li>Serial function: <code>9:29</code></li>
@@ -256,6 +256,9 @@
   >
     This site is custom-made by me using SvelteKit, TailwindCSS and the DaisyUI
     component library.
+    <br />
+    <br />
+
     <div class="hidden lg:block">
       Did you know that it dynamically adapts to mobile displays?
     </div>

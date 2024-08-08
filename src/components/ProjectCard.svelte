@@ -63,9 +63,8 @@ in:fly={{y:1000, duration: 1000, delay:1500}}>
   :global(.project p) {
     @apply lg:pl-5;
     @apply text-base;
-    @apply lg:text-lg;
-    @apply uw:text-xl;
-    @apply lg:leading-snug;
+    @apply uw:text-lg;
+    @apply lg:leading-tight;
   }
 
   :global(.project h2) {
