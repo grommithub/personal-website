@@ -212,7 +212,7 @@
 
   <div class="divider w-full"></div>
   <Card>
-    <p>More can be found on my <a class="link" href="https://www.grommitchio.itch.io" target="_blank">Itch</a>, on my <a class="link" target="_blank" href="https://www.grommithub.github.org">Github</a>
+    <p>More can be found on my <a class="link" href="https://grommitchio.itch.io/" target="_blank">Itch</a>, on my <a class="link" target="_blank" href="https://github.com/grommithub">Github</a>
     and my <a class="link" href="https://linkedin.com/in/daniel-burt" target="_blank">LinkedIn</a>.
     </p>
   </Card>
