@@ -212,7 +212,8 @@
 
   <div class="divider w-full"></div>
   <Card>
-    Not everything is documented here but more can be found on my itch, github
-    and linkedin.
+    <p>More can be found on my <a class="link" href="https://www.grommitchio.itch.io" target="_blank">Itch</a>, on my <a class="link" target="_blank" href="https://www.grommithub.github.org">Github</a>
+    and my <a class="link" href="https://linkedin.com/in/daniel-burt" target="_blank">LinkedIn</a>.
+    </p>
   </Card>
 </div>
