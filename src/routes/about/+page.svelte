@@ -75,7 +75,7 @@
           href="https://www.livsmedelsverket.se/"
           target="_blank">Swedish Food Agency</a
         >
-        where I worked on various internal websites, an app, several API's and other
+        where I contributed to various internal websites, an app, several API's and other
         pieces of miscellaneous software. Working full-stack meant dealing with everything
         from the SQL-database to the HTML-interface and everything in-between.
       </p>
