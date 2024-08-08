@@ -8,11 +8,13 @@
     </nav>
 
 
-    <div class="bottom-0 lg:hidden w-full">
+    <div class="bottom-0 lg:hidden h-36 w-full content-start">
       <ul class="flex flex-row mx-auto list-none justify-between w-full">
         <li><a href="/about"><button class="btn btn-primary">About Me</button></a></li>
         <li><a href="/portfolio"><button class="btn btn-primary">Portfolio</button></a></li>
         <li><a href="/contact"><button class="btn btn-primary">Contact</button></a></li>
-      </ul>
+      </ul> 
+
+      <div class="divider w-full"></div>
     </div>
   </footer>
