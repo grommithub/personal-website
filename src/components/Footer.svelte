@@ -16,5 +16,6 @@
       </ul> 
 
       <div class="divider w-full"></div>
+      <p>Dan Burt - {new Date().getFullYear()}</p>
     </div>
   </footer>
