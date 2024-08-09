@@ -17,17 +17,17 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Dan Burt's Personal Website & Portfolio">
-    <meta property="og:description" content="Software engineer | Game developer">
-    <meta property="og:image" content="https://danburt.se/dan-face.png">
+    <meta property="og:title" content="Dan Burt | Personal Website & Portfolio">
+    <meta property="og:description" content="Software Engineer | Game Developer | Web Designer">
+    <meta property="og:image" content="https://danburt.se/link-preview.png">
     <meta property="og:url" content="https://danburt.se">
     <meta property="og:site_name" content="Dan Burt">
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dan Burt's Personal Website & Portfolio">
-    <meta name="twitter:description" content="Software engineer | Game developer">
-    <meta name="twitter:image" content="https://danburt.se/dan-face.png">
+    <meta name="twitter:title" content="Dan Burt | Personal Website & Portfolio">
+    <meta name="twitter:description" content="Software Engineer | Game Developer | Web Designer">
+    <meta name="twitter:image" content="https://danburt.se/link-preview.png">
 
 
 
