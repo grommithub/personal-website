@@ -97,7 +97,7 @@
   <ProjectCard
     title={"Unscrabble"}
     src={"unscrabble.gif"}
-    tags={["Svelte", "Javascript", "HTML", "Tailwind"]}
+    tags={["SvelteKit", "TailwindCSS", "Javascript"]}
   >
     Unscrabble is a word game for the browser where you Unscrabble™️ words.
   </ProjectCard>
@@ -248,7 +248,7 @@
     title={"This very website!"}
     src={"mobile.gif"}
     mobile_src={"desktop.png"}
-    tags={["SvelteKit", "Tailwind", "DaisyUI"]}
+    tags={["SvelteKit", "TailwindCSS", "DaisyUI"]}
     link={{
       url: "https://github.com/grommithub/personal-website",
       display: "Github",
