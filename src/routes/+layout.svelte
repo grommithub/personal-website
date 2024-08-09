@@ -17,7 +17,7 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Dan Burt">
+    <meta property="og:title" content="Dan Burt's Personal Website & Portfolio">
     <meta property="og:description" content="Software engineer | Game developer">
     <meta property="og:image" content="https://danburt.se/dan-face.png">
     <meta property="og:url" content="https://danburt.se">
@@ -25,7 +25,7 @@
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Dan Burt">
+    <meta name="twitter:title" content="Dan Burt's Personal Website & Portfolio">
     <meta name="twitter:description" content="Software engineer | Game developer">
     <meta name="twitter:image" content="https://danburt.se/dan-face.png">
 
