@@ -11,7 +11,28 @@
 </script>
 
 <head>
-  <title>Dan Burt {$page.route.id?.slice(1).charAt(0).toUpperCase() + $page.route.id?.slice(2)}</title>
+
+    <title>Dan Burt {$page.route.id?.slice(1).charAt(0).toUpperCase() + $page.route.id?.slice(2)}</title>
+    <meta name="description" content="Personal website and portfolio of software and game developer Dan Burt">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dan Burt">
+    <meta property="og:description" content="Personal website and portfolio of software and game developer Dan Burt">
+    <meta property="og:image" content="dan-face.png">
+    <meta property="og:url" content="https://danburt.se">
+    <meta property="og:site_name" content="Dan Burt">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dan Burt">
+    <meta name="twitter:description" content="Personal website and portfolio of software and game developer Dan Burt">
+    <meta name="twitter:image" content="dan-face.png">
+
+
+
+
+
 
   <link rel="icon" href="favicon.gif" type="image/gif">
   <link rel="shortcut icon" href="favicon.ico" type="image/x">
