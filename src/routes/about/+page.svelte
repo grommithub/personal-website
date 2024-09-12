@@ -77,13 +77,13 @@
         >
         where I contributed to various internal websites, an app, several API's and other
         pieces of miscellaneous software. Working full-stack meant dealing with everything
-        from the SQL-database to the HTML-interface and everything in-between.
+        from the SQL-database to the HTML-interface and everything in-between.  As my contract was coming to a close I decided to dedicate myself to
+        learning web development.
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
       <p>
-        As my contract was coming to a close I decided to dedicate my self to
-        learning web development. Currently I'm looking for new work in software
-        development and adjacent fields. If you're curious I implore you to
+        Currently I work part-time teaching Game Design at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> while pursuing a new full-time position in software
+        engineering, game development or an adjacent fields. If you're curious I implore you to
         browse my <a href="/portfolio" class="link">portfolio</a> and if you
         like what you see you're free to
         <a href="/contact" class="link">get in touch.</a>
@@ -91,3 +91,4 @@
     </Card>
   </div>
 </div>
+
