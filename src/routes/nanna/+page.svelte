@@ -81,7 +81,7 @@
             <img
               class="m-auto"
               src="lesson2.gif"
-              alt="Resultatet från lektion 1"
+              alt="Resultatet från lektion 2"
               width="100%"
               height="100%"
             />
@@ -100,19 +100,50 @@
       ↓↓↓↓↓
     <img src="tile_atlas.png" width="20%" alt="tile atlas" />
   </Card>
+  <Card>
+    <h2 class="divider w-full divider-start">Moment 3</h2>
+    <div class="pb-10">
+      <div class="w-full h-full flex flex-row">
+        <div class="aspect-video w-full">
+          Video
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/7NGjo-CZz7I?si=u7QbgSGA9pzr-p2s"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="w-full h-full flex flex-col flex-grow">
+          Resultat
+          <div class="content-center bg-black h-full w-full">
+            <img
+              class="m-auto"
+              src="lesson3.gif"
+              alt="Resultatet från lektion 3"
+              width="100%"
+              height="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="py-5">
+      I moment 3 får man se hur man ändrar på spelarkaraktärens egenskaper samt hur man får spelet att starta om när man faller av banan.
+    </p>
+    Kod för att ändra spelarens egenskaper i inspektorvyn:
+    <div class=" divider divider-horizontal">
+    </div>
 
-  <!-- <div class="aspect-video w-full lg:w-1/2 m-auto">
-    <iframe
-      class="w-full h-full"
-      src=""
-      title="YouTube video player"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin"
-      allowfullscreen
-    ></iframe>
-  </div> -->
-
-  <a href="https://youtu.be/SRm4Y9fnhBY">Video 1</a>
-  <a href="https://youtu.be/HQ9j8OvKHrM">Video 2</a>
+      <code>
+        @export var SPEED = 500.0<br>
+        @export var JUMP_VELOCITY = -400.0
+      </code>
+    Kod för att starta om banan:
+    <code>
+    get_tree().reload_current_scene()
+    </code>
+  </Card>
 </div>
