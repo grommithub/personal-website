@@ -20,6 +20,18 @@
     För Nannaskolan
   </h1>
   <Card>
+
+    <h2 class="divider w-full divider-start">Burt's Game Pack</h2>
+
+    <a
+      href="nannaspel.zip"
+      target="_blank"
+      class="link">Ladda ner mitt spelprojekt</a
+    >
+  </Card>
+
+
+  <Card>
     <h2 class="divider w-full divider-start">Moment 1</h2>
     <div class="pb-10">
       <div class="w-full h-full flex flex-row">
