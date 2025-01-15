@@ -46,6 +46,6 @@ title="daniel.burt2000@gmail.com"
 icon={"discord"}
 url="https://discord.com/users/243013753371623425"
 title="@grommit"
-first="true"
+first={true}
 />
 </div>
