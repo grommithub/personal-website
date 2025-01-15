@@ -41,4 +41,11 @@ icon={"mail"}
 url="mailto:daniel.burt2000@gmail.com"
 title="daniel.burt2000@gmail.com"
 />
+<div class="divider">Casual</div>
+<UserLink
+icon={"discord"}
+url="https://discord.com/users/243013753371623425"
+title="@grommit"
+first="true"
+/>
 </div>
