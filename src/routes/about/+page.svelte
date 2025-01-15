@@ -77,17 +77,16 @@
         >
         where I contributed to various internal websites, an app, several API's and other
         pieces of miscellaneous software. Working full-stack meant dealing with everything
-        from the SQL-database to the HTML-interface and everything in-between.  As my contract was coming to a close I decided to dedicate myself to
-        learning web development.
+        from the SQL-database to the HTML-interface and everything in-between.
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
       <p>
-        Currently I work part-time teaching Game Design at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> while pursuing a new full-time position in software
-        engineering, game development or an adjacent fields. If you're curious I implore you to
-        browse my <a href="/portfolio" class="link">portfolio</a> and if you
-        like what you see you're free to
-        <a href="/contact" class="link">get in touch.</a>
+        Currently I work full-time as a software developer at <a href="https://bogio.tech/" target="_blank" class="link tooltip" data-tip="Check out their website">Bogio</a>, where my primary responsibility is working full-stack in Ruby on Rails.
+        I also teach Game Design at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> part-time.
+        Additionally I've been helping <a class="link tooltip" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar" data-tip="Their website">Kristinehamns folkhögskola</a> set up an upcoming game programmer course, also part-time. I'm a busy beaver! 🦫
       </p>
+      <div class="divider divider-start w-full"></div>
+      <p>Feel free to take a look at my <a href="/portfolio" class="link">portfolio</a> or <a href="/contact" class="link">get in touch</a> if you'd like!</p>
     </Card>
   </div>
 </div>
