@@ -17,7 +17,7 @@
   class="project card bg-base-300 w-full align shadow-xl items-start m-auto flex-col lg:flex-row mb-5 grid lg:grid-cols-2 justify-between overflow-hidden border-primary-content border-2"
 in:fly={{y:1000, duration: 1000, delay:1500}}>
   <div class="w-full h-full bg-black content-center">
-    <img {src} class="w-full h-fit" alt={title} 
+    <img {src} class="w-full h-auto" alt={title} 
     class:hidden={mobile_src != ""}
     class:lg:block={mobile_src != ""}/>
     {#if mobile_src != ""}
