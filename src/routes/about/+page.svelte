@@ -69,21 +69,20 @@
       </p>
       <div class="divider divider-start w-full">Professional Experience</div>
       <p>
-        I have professional experience working as a consultant at the <a
+        I have professional experience working as a full-stack consultant at the <a
           class="link tooltip"
           data-tip="Visit their government website"
           href="https://www.livsmedelsverket.se/"
           target="_blank">Swedish Food Agency</a
         >
         where I contributed to various internal websites, an app, several API's and other
-        pieces of miscellaneous software. Working full-stack meant dealing with everything
-        from the SQL-database to the HTML-interface and everything in-between.
+        pieces of miscellaneous software.
+        I've also taught Game Design at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> part-time for a year and helped
+        <a class="link tooltip" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar" data-tip="Their website">Kristinehamns folkhögskola</a> plan and structure their game programmer programme.
       </p>
       <div class="divider divider-start w-full">Current Activity</div>
       <p>
-        Currently I work full-time as a software developer at <a href="https://bogio.tech/" target="_blank" class="link tooltip" data-tip="Check out their website">Bogio</a>, where my primary responsibility is working full-stack in Ruby on Rails.
-        I also teach Game Design at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> part-time.
-        Additionally I've been helping <a class="link tooltip" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar" data-tip="Their website">Kristinehamns folkhögskola</a> set up an upcoming game programmer course, also part-time. I'm a busy beaver! 🦫
+        Currently I work full-time as a software developer at <a href="https://bogio.tech/" target="_blank" class="link tooltip" data-tip="Check out their website">Bogio</a>, where I work full-stack in Ruby on Rails.
       </p>
       <div class="divider divider-start w-full"></div>
       <p>Feel free to take a look at my <a href="/portfolio" class="link">portfolio</a> or <a href="/contact" class="link">get in touch</a> if you'd like!</p>
