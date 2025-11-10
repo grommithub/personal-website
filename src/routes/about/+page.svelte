@@ -49,12 +49,11 @@
         Currently I work as a software developer at <a href="https://46elks.com/" target="_blank" class="link tooltip" data-tip="Check out their website">46elks</a>.
       </p>
       <div class="divider divider-start w-full">Professional Experience</div>
-      My professional experience includes:
       <ul>
-        <li>Full-stack consultant at the <a class="link tooltip" data-tip="Visit their government website" href="https://www.livsmedelsverket.se/" target="_blank">Swedish Food Agency</a>.</li>
-        <li>Ruby on Rails developer at <a href="https://bogio.tech/" target="_blank" class="link tooltip" data-tip="Check out their website">Bogio</a> (January–November 2025).</li>
-        <li>Game design teacher at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a> (part-time).</li>
-        <li>Course planner for <a class="link tooltip" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar" data-tip="Their website">Kristinehamns folkhögskola</a> (part-time).</li>
+        <li>Ruby on Rails developer at <a href="https://bogio.tech/" target="_blank" class="link tooltip" data-tip="Check out their website">Bogio</a></li>
+        <li><a class="link tooltip" target="_blank" data-tip="View the course here" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar/dragon-game-education/game-programmer">Course planner</a> for <a class="link tooltip" href="https://www.regionvarmland.se/folkhogskolor/kristinehamns-folkhogskola/vara-utbildningar" data-tip="Their website">Kristinehamns folkhögskola</a></li>
+        <li>Game design teacher at <a class="link tooltip" data-tip="Visit their website" href="https://nannaskolan.uppsala.se/" target="">Nannaskolan</a></li>
+        <li>Full-stack consultant at the <a class="link tooltip" data-tip="Visit their government website" href="https://www.livsmedelsverket.se/" target="_blank">Swedish Food Agency</a></li>
       </ul>
       <div class="divider divider-start w-full">Education</div>
       <p>
